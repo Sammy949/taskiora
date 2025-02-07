@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Taskiora",
   description: "Create and organize tasks for a better and efficient workflow",
+  icons: {
+    icon: "/logo.svg",
+  },
 };
 
 export default function RootLayout({
